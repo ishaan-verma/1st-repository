@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="signup.css">
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item active" style="font-family: 'Krona One', sans-serif;">
+                <a class="nav-link" href="signup.html">Sign up</a>
+            </li>
+        </ul>
+    </nav>
+
+
+
+
+
+    <!--Form-->
+
+    <div class="container" style="border-radius: 19px; margin-bottom: 30px;">
+        <h2 id="formHeading">Create Account</h2>
+        <form action="connect.php" method="POST">
+
+
+
+
+            <div class="form-group">
+                <div style="border: solid 1px rgb(50, 50, 219);padding: 20px;margin-bottom: 20px;margin-top:20px;border-radius: 30px">
+                    <h4>User Profile</h4>
+                <label for="Name">Owner Name</label>
+                <input type="text" name="ownername" placeholder="Enter Owner's Name" required class="form-control">
+
+                <label for="Name">Manager Name</label>
+                <input type="text" name="managername" placeholder="Enter Manager's Name" required class="form-control">
+
+                <label for="Name">Manager Phone No.</label>
+                <input type="text" name="phone" placeholder="Enter Phone No." required class="form-control">
+
+                <label for="Name">Email id</label>
+                <input type="text" name="emailid" placeholder="Enter Official Email-id" required class="form-control">
+
+                <label for="Address">Address</label>
+                <input type="text" name="address" placeholder="Enter Address" required class="form-control">
+                
+                </div>
+                <div style="border: solid 1px rgb(50, 50, 219);padding: 20px;margin-bottom: 20px;border-radius: 30px">
+                <h4>Hotel Details</h4>
+                <label for="Hotel Name">Hotel Name</label>
+                <input type="text" name="hotelname" placeholder="Enter Hotel Name" required class="form-control">
+
+                <label for="Hotel Address">Hotel Address</label>
+                <input type="text" name="hoteladdress" placeholder="Enter Hotel Address with Pin Code" required class="form-control">
+                
+                </div>
+
+                <div style="border: solid 1px rgb(241, 2, 142);padding: 20px;margin-bottom: 20px; border-radius: 30px;">
+                <h4>Credentials</h4>
+                <label for="Username">Username</label>
+                <input type="text" name="Username" placeholder="Enter Username in the format hotelname.yourname" required class="form-control">
+
+                <label for="Password">Password</label>
+                <input type="password" name="Password" placeholder="Enter Password of minimum 8 characters" required class="form-control">
+
+                <label for="Confirm Password">Confirm Password</label>
+                <input type="password" name="Confirm_Password" placeholder="Confirm Password" required class="form-control">
+                </div>
+            </div>
+
+            <a href="#" class="btn btn-outline-success">Submit</a>
+
+        </form>
+        <h5 style="text-align: center;">Already have an account then: <a href="login.html">Click Here!</a></h5>
+        
+    </div>
+    
+</body>

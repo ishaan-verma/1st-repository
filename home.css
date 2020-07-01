@@ -1,0 +1,68 @@
+body, html {
+    height: 100%;
+  }
+
+.bg {
+    /* The image used */
+    background-image: url("home_background.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+
+.container{
+    position: absolute;
+    top:100px;
+    left:0px;
+    width: max-content;
+  
+
+}
+
+.greet{
+    color: lawngreen;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: xx-large;
+}
+
+#option1{
+    position: absolute;
+    top: 340px;
+    left: 420px;
+    width: 500px;
+    height: 40px;
+    border-radius: 100px;
+}
+
+#option2{
+    position: absolute;
+    top: 400px;
+    left: 420px;
+    width: 500px;
+    height: 40px;
+    border-radius: 100px;
+}
+
+#option1:hover{
+    background-color: lightblue;
+}
+#option2:hover{
+    background-color: lightblue;
+}
+
+#heading{
+    position: absolute;
+    top:200px;
+    left:500px;
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+    color: rgb(92, 250, 255);
+}

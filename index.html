@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Bootstrap</title>
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Raleway&family=Yellowtail&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="bg">
+
+    <!--nav bar-->
+    <div>
+      <nav class="navbar navbar-expand-sm bg-transparent navbar-dark fixed-top ">
+        <a class="navbar-brand" href="#">Logo</a>
+        <ul class="navbar-nav ml-auto ">
+          <li class="nav-item px-4">
+            <a class="nav-link active" href="index.html" aria-pressed="true">Intro</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="btn btn-success" href="signup.html" role="button">Sign up</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="btn btn-outline-primary" href="login.html" role="button">Login</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" href="about.html">About us</a>
+          </li>
+
+        </ul>
+      </nav>
+    </div>
+
+    <div class="blur">
+      <div class="container">
+        <span id="heading">
+          <h1>Welcome to Smart Menu</h1>
+        </span>
+
+
+      </div>
+
+    </div>
+
+    <div style="opacity:0.5;position: absolute; top:290px; left: 200px;">
+      <span
+        style="opacity: 1;font-family: 'Ubuntu', sans-serif;color: rgba(251, 255, 0, 0.884);font-size:x-large;font-weight: bolder;">An
+        app created to digitalize the existing Menu Cards. </span>
+    </div>
+
+    <div class="w-75 p-3" id="description">
+      <span>
+        <p style="text-align: center; color: aliceblue;font-family: 'Prompt', sans-serif;">Nowadays,an era has begun where everything is turning digital, so why not our classic Menu Cards!!<br>This app is also a small step in the digitization of the world.</p><h3 style="font-family: 'Yellowtail', cursive; color: darkgreen;">Advantages:</h3><ol style="font-family: 'Josefin Sans', sans-serif;color: antiquewhite;"><li>It saves the cost of forming a Menu Card.</li><li>It also saves time from the hectic publication of the Menus</li></ol> 
+      </span>
+    </div>
+
+
+  </div>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.15.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.15.5/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+  }
+  .bg {
+    /* The image used */
+    background-image: url("intro_background.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.blur{
+    position: absolute;
+width: max-content;
+height: max-content;
+top:200px;
+background-blend-mode: color-burn;
+background-color:rgba(0,255,0,0.1);
+left:200px;
+
+
+}
+
+
+#heading{
+    font-family: 'Lobster', cursive;
+    color: lightyellow;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    margin-bottom: 2.4rem;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+   opacity: 1;
+    
+}
+
+#description{
+  position: absolute; top: 356px; left: 200px;
+  border: limegreen solid 5px;
+  border-radius: 80px;
+}
